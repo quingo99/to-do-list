@@ -10,3 +10,6 @@ Task Submission: Easily add new tasks to your to-do list.
 Task Management: Mark tasks as complete, edit task details, or delete tasks.
 Persistent Storage: Tasks are saved and will be there even after you close the app.
 (Any other features you've implemented)
+
+## Acknowledgments
+This project is based on The Complete 2023 Web Development Bootcamp taught by Angela Yu. I've made this as a part of my learning. All rights belong to the original author and the respective publishing platform.
