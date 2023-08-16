@@ -5,13 +5,14 @@ const mongoose = require("mongoose");
 const { render } = require("ejs");
 const _ = require("lodash");
 const app = express();
+const dotenv = require ("dotenv");
+dotenv.config();
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs')
 app.use(express.static("public"));
 
 mongoose.set('strictQuery', false);
 mongoose.connect(process.env.MONGO_URI);
-//mongoose.connect('mongodb://127.0.0.1:27017/todolistDB')
 const itemsSchema = mongoose.Schema({
     name:  String
 });
